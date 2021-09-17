@@ -23,3 +23,53 @@ main {
   color: #f7cac9;
   margin: 0;
 }
+
+.brain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 80px;
+  width: 920px;
+  height: 100px;
+  background-color: #ff5e5b;
+  border-radius: 0 0 20px 20px;
+}
+.brain > div {
+  display: flex;
+  align-items: center;
+}
+.brain > div > p {
+  color: wheat;
+  font-weight: 1000;
+  margin: 0;
+}
+
+.brain button {
+  cursor: pointer;
+  background-color: wheat;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 8px;
+  margin-left: 20px;
+  transition: all 0.7s;
+}
+
+.brain button:hover {
+  background-color: aqua;
+  transition: all 0.5s;
+}
+
+.brain-mode {
+  margin-left: 20px;
+}
+
+.active-button {
+  background-color: #ffed66 !important;
+}
+
+.erase {
+  color: limegreen !important;
+  font-weight: 700;
+}
